@@ -1,5 +1,5 @@
 import pytest
-from bun import Bun
+from practicum.bun import Bun
 
 
 

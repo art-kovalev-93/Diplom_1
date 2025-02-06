@@ -1,9 +1,7 @@
 import pytest
 from unittest.mock import Mock
-from bun import Bun
-from burger import Burger
-from ingredient import Ingredient
-from ingredient_types import INGREDIENT_TYPE_FILLING, INGREDIENT_TYPE_SAUCE
+from practicum.burger import Burger
+from practicum.ingredient_types import INGREDIENT_TYPE_FILLING, INGREDIENT_TYPE_SAUCE
 
 
 class TestBurger:

@@ -1,7 +1,6 @@
 import pytest
-from ingredient import Ingredient
-from ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
-from unittest.mock import Mock
+from practicum.ingredient import Ingredient
+from practicum.ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
 
 
 class TestIngredient:
